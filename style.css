@@ -15,8 +15,40 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  padding-top: 10px;
+}
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9EA9ED;
+}
+li {
+  float: left;
 }
 
-/********CLASS selectors********/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover {
+  background-color: #5453A6;
+}
+/********CLASS selectors********/
+.attachment{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.iframe{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
 /****ID selectors*****/
